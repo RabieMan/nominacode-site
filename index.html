@@ -47,6 +47,7 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;color:v
 html[lang="he"] [data-l]:not([data-l="he"]),html[lang="en"] [data-l]:not([data-l="en"]),html[lang="ar"] [data-l]:not([data-l="ar"]){display:none!important}
 [data-l="en"]{text-align:left}[data-l="en"] .hero{text-align:center}
 [data-l="en"] .f.soon b::after{content:" · soon"}[data-l="ar"] .f.soon b::after{content:" · قريبًا"}
+.vid{position:relative;max-width:860px;margin:6px auto 22px;aspect-ratio:16/9;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#000 center/cover no-repeat;cursor:pointer;box-shadow:0 20px 60px rgba(0,0,0,.5)}.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.vid .pl{position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;background:var(--acc2);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(167,139,250,.25);border:0;cursor:pointer}.vid .pl:after{content:"";border-style:solid;border-width:16px 0 16px 26px;border-color:transparent transparent transparent #1a1238;margin-left:6px}.vid small{position:absolute;bottom:12px;left:0;right:0;text-align:center;color:#fff;font-size:14px;text-shadow:0 2px 8px #000}
 </style>
 </head>
 <body><div class="wrap">
@@ -59,6 +60,8 @@ html[lang="he"] [data-l]:not([data-l="he"]),html[lang="en"] [data-l]:not([data-l
  <p>נומרולוגיה של שמות שמחשבת כל שם בכתב שלו: גימטריה לשמות בעברית, אבג׳ד לשמות בערבית ופיתגורס או כלדאי לשמות באנגלית. מספר אישי לכל יום, צופן השם, התאמה בין שני אנשים ובחירת שם לתינוק.</p>
  <div class="badge">בקרוב ב-Google Play</div>
 </div>
+
+<div class="vid" data-yt="g3LrdVpW9B4" style="background-image:url(img/promo-poster.jpg)" role="button" tabindex="0" aria-label="צפו בסרטון – NominaCode"><button class="pl" aria-label="Play"></button><small>צפו בסרטון · 40 שניות · נטען מ-YouTube בלחיצה</small></div>
 
 <div class="shots">
  <img src="img/01-today-he.jpg?v=3" alt="היום שלך: מספר היום האישי, החודש והשנה האישיים"><img src="img/02-code-he.jpg?v=3" alt="צופן השם: ערך כל אות, מספר הייעוד, תשוקת הנשמה והאישיות"><img src="img/03-sky-he.jpg?v=3" alt="מפת השמיים היום מעל מפת הלידה"><img src="img/04-names-he.jpg?v=3" alt="הצעות שמות לתינוק לפי תאריך הלידה, מנתוני הלמ״ס">
@@ -91,6 +94,8 @@ html[lang="he"] [data-l]:not([data-l="he"]),html[lang="en"] [data-l]:not([data-l
  <div class="badge">قريبًا على Google Play</div>
 </div>
 
+<div class="vid" data-yt="g3LrdVpW9B4" style="background-image:url(img/promo-poster.jpg)" role="button" tabindex="0" aria-label="شاهد الفيديو – NominaCode"><button class="pl" aria-label="Play"></button><small>شاهد الفيديو · 40 ثانية · يُحمَّل من YouTube عند الضغط</small></div>
+
  <div class="shots">
  <img src="img/01-today-ar.jpg?v=3" alt="يومك: رقم اليوم الشخصي والشهر والسنة الشخصيان"><img src="img/02-code-ar.jpg?v=3" alt="شفرة الاسم: قيمة كل حرف ورقم القدر ورغبة الروح والشخصية"><img src="img/03-sky-ar.jpg?v=3" alt="خريطة السماء اليوم فوق خريطة الميلاد"><img src="img/04-names-ar.jpg?v=3" alt="اقتراحات أسماء للمولود حسب تاريخ الميلاد">
 </div>
@@ -120,6 +125,8 @@ html[lang="he"] [data-l]:not([data-l="he"]),html[lang="en"] [data-l]:not([data-l
  <p>Name numerology that reads every name in its own script: gematria for Hebrew names, abjad for Arabic names and Pythagorean or Chaldean for English names. A personal number for every day, your name code, a match between two people and baby name ideas.</p>
  <div class="badge">Coming soon on Google Play</div>
 </div>
+
+<div class="vid" data-yt="g3LrdVpW9B4" style="background-image:url(img/promo-poster.jpg)" role="button" tabindex="0" aria-label="Watch the video – NominaCode"><button class="pl" aria-label="Play"></button><small>Watch the video · 40 seconds · loads from YouTube on click</small></div>
 
  <div class="shots">
  <img src="img/01-today-en.jpg?v=3" alt="Your day: personal day, month and year"><img src="img/02-code-en.jpg?v=3" alt="Name code: each letter's value, Destiny, Soul Urge and Personality"><img src="img/03-sky-en.jpg?v=3" alt="Today's sky map over the birth chart"><img src="img/04-names-en.jpg?v=3" alt="Baby name ideas by birth date">
@@ -158,5 +165,6 @@ html[lang="he"] [data-l]:not([data-l="he"]),html[lang="en"] [data-l]:not([data-l
  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set)})});
 })();
 </script>
+<script>document.querySelectorAll('.vid').forEach(v=>{const go=()=>{v.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+v.dataset.yt+'?autoplay=1&rel=0" title="NominaCode" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';v.style.cursor='default'};v.addEventListener('click',go,{once:true});v.addEventListener('keydown',e=>{if(e.key==='Enter')go()})})</script>
 </body>
 </html>
