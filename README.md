@@ -9,7 +9,7 @@ The public website of NominaCode. The app code lives in a private repo; this rep
 
 | דף · Page | שפות · Languages | כתובת · URL |
 |---|---|---|
-| דף הבית · Landing | עברית + English | https://rabieman.github.io/nominacode-site/ |
+| דף הבית · Landing | עברית · العربية · English (בורר שפות) | https://rabieman.github.io/nominacode-site/ |
 | מדיניות פרטיות · Privacy | he · ar · en (`?lang=he\|ar\|en`) | https://rabieman.github.io/nominacode-site/privacy.html |
 | תנאי שימוש · Terms | he · ar · en | https://rabieman.github.io/nominacode-site/terms.html |
 | הודעות צד שלישי · Notices | he · ar · en | https://rabieman.github.io/nominacode-site/licenses.html (הקישור נמצא בסוף דף התנאים) |
@@ -19,6 +19,7 @@ The public website of NominaCode. The app code lives in a private repo; this rep
 ## תוכן · Content
 
 - **קשר:** rabieman.labs+nominacode@gmail.com
+- **בורר שפות:** עברית · العربية · English בראש הדף, בסגול של האפליקציה, כמו באתר הבית: שפה אחת בכל פעם, נשמרת עם אותו מפתח `rl_lang` של rabieman.github.io; `?lang=he|ar|en` או `#ar` / `#en` פותחים שפה ישירות, והקישורים המשפטיים בתחתית עוברים באותה שפה.
 - **תמונת שיתוף:** `img/og.jpg` (1200×630). היא נוצרת בריפו הפרטי עם `python3 tools/store_graphics.py` (`store/og-he.jpg`). אחרי שמחליפים אותה, מעלים את `?v=` בתגיות ה-OG ומרעננים ב-Facebook Sharing Debugger.
 - **הדפים המשפטיים:** זהים לעותקים שבאפליקציה (`www/legal/`). כל שינוי נעשה בשני המקומות, ומעדכנים את תאריך "עודכן לאחרונה".
 
@@ -28,7 +29,7 @@ The public website of NominaCode. The app code lives in a private repo; this rep
 
 ## `img/`
 
-`icon.png` · `rabieman-labs.webp` · `og.jpg` · צילומי מסך עם נתוני דמו: `01-today` · `02-code` · `03-horoscope` · `04-names`, כל אחד ב-`-he.jpg` וב-`-en.jpg`.
+`icon.png` · `rabieman-labs.webp` · `og.jpg` · צילומי מסך עם נתוני דמו: `01-today` · `02-code` · `03-horoscope` · `04-names` ב-`-he.jpg` וב-`-en.jpg`, ובערבית `01-today` · `02-code` · `03-sky` · `04-names` ב-`-ar.jpg`.
 
 ---
 
