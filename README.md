@@ -29,7 +29,7 @@ The public website of NominaCode. The app code lives in a private repo; this rep
 
 ## `img/`
 
-`icon.png` · `rabieman-labs.webp` · `og.jpg` · צילומי מסך עם נתוני דמו: `01-today` · `02-code` · `03-horoscope` · `04-names` ב-`-he.jpg` וב-`-en.jpg`, ובערבית `01-today` · `02-code` · `03-sky` · `04-names` ב-`-ar.jpg`.
+`icon.png` · `rabieman-labs.webp` · `og.jpg` · צילומי מסך עם נתוני דמו – אותם ארבעה בכל שפה: `01-today` · `02-code` · `03-sky` · `04-names`, כל אחד ב-`-he.jpg`, ב-`-ar.jpg` וב-`-en.jpg`. הם נוצרים מאותו סקריפט Playwright מתוך `www/` של האפליקציה, באותו גודל (540×960).
 
 ---
 
