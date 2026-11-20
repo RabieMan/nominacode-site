@@ -19,7 +19,7 @@ The public website of NominaCode. The app code lives in a private repo; this rep
 ## תוכן · Content
 
 - **קשר:** rabieman.labs+nominacode@gmail.com
-- **סרטון:** YouTube `g3LrdVpW9B4` ("לא רשום" עד החשיפה) מתחת לכותרת בכל שפה, עם תמונת שער מקומית `img/promo-poster.jpg`; נטען מ-youtube-nocookie רק בלחיצה, כך שהדף לא פונה ל-YouTube לפני כן (מוזכר גם במדיניות הפרטיות).
+- **סרטון:** YouTube `776AHPOZe34` ("לא רשום" עד החשיפה) מתחת לכותרת בכל שפה, עם תמונת שער מקומית `img/promo-poster.jpg`; נטען מ-youtube-nocookie רק בלחיצה, כך שהדף לא פונה ל-YouTube לפני כן (מוזכר גם במדיניות הפרטיות).
 - **בורר שפות:** עברית · العربية · English בראש הדף, בסגול של האפליקציה, כמו באתר הבית: שפה אחת בכל פעם, נשמרת עם אותו מפתח `rl_lang` של rabieman.github.io; `?lang=he|ar|en` או `#ar` / `#en` פותחים שפה ישירות, והקישורים המשפטיים בתחתית עוברים באותה שפה.
 - **תמונת שיתוף:** `img/og.jpg` (1200×630). היא נוצרת בריפו הפרטי עם `python3 tools/store_graphics.py` (`store/og-he.jpg`). אחרי שמחליפים אותה, מעלים את `?v=` בתגיות ה-OG ומרעננים ב-Facebook Sharing Debugger.
 - **הדפים המשפטיים:** זהים לעותקים שבאפליקציה (`www/legal/`). כל שינוי נעשה בשני המקומות, ומעדכנים את תאריך "עודכן לאחרונה".
