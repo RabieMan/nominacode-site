@@ -1,5 +1,7 @@
 # NominaCode – אתר · Website
 
+**NominaCode by RabieMan Labs — Trilingual Name Numerology & Gematria (Hebrew · Arabic · English)**
+
 האתר הציבורי של **NominaCode**, נומרולוגיה של שמות בעברית, בערבית ובאנגלית, מבית [RabieMan Labs](https://rabieman.github.io/).
 הקוד של האפליקציה נמצא בריפו פרטי. כאן יש רק את מה שחייב להיות ציבורי. האתר מתפרסם ב-GitHub Pages מ-`main`.
 
